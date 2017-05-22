@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-# title: Programmer's Daily Notes
+title: Programmer's Daily Notes
 
 # Short description of your site
 description: A virtual proof that name is awesome!
@@ -51,7 +51,7 @@ author:
   github: afikri    # eg. daattali
   twitter: fikri1510   # eg. daattali
   reddit: yourname    # eg. daattali
-  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
+  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925 https://plus.google.com/u/0/100884761863234128776
   linkedin: yourname  # eg. daattali
   xing: yourname      # eg. daattali
   stackoverflow: yourlink  # eg. "3943160/daattali"
