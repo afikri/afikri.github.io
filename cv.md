@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My CV
-subtitle: This is my cv
+title: Curriculum Vitae
+subtitle: Software Developer
 ---
 
 My name is Fikri Abdul. I have the following qualities:
