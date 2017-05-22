@@ -5,4 +5,4 @@ image: /img/hello_world.jpeg
 tags: [random, exciting-stuff]
 ---
 
-This is my first post, how exciting!
+I am trying to do my first post, how exciting!
