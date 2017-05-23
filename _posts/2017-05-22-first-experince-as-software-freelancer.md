@@ -1,8 +1,8 @@
 ---
 layout: post
-title: First post!
+title: !
 
-tags: [random, exciting-stuff]
+tags: [software development, sharing experience]
 ---
 
 I am trying to do my first post, how exciting!
