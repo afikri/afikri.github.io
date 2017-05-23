@@ -5,4 +5,4 @@ title: First Experince As Freelance Software Developer
 tags: [software development, sharing experience]
 ---
 
-I am trying to do my first post, how exciting!
+Back in 2016, after finishing my master program in Computing and Innvotion at The University of Adelaide, I encouraged myself to start freelancing
