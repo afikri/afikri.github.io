@@ -4,7 +4,7 @@ title: Curriculum Vitae
 subtitle: Database Developer at IOM
 ---
 ### Personal Information
-My name is Fikri Abdul. I have the following qualities:
+Abdul Fikri. I have the following qualities:
 
 - I rock a great mustache
 - I'm extremely loyal to my family
@@ -12,6 +12,9 @@ My name is Fikri Abdul. I have the following qualities:
 What else do you need?
 
 ### Education
+Bachelor in Chemical Engineering at Institut Teknologi Bandung, Indonesia
+Bachelor in Applied Computer Science at Free University of Bozen, Italy
+Master in Computing and Innovation, The University of Adelaide, South Australia
 
 ### Working Experience
 
