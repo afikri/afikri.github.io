@@ -4,7 +4,7 @@ title: Curriculum Vitae
 subtitle: Database Developer at IOM
 ---
 # Personal Information
-Abdul Fikri. I have the following qualifications:
+My name is Abdul Fikri. Currently, I am working as *Database Developer* and duty stationed at Jakarta Head Office. I have the following qualifications:
 
 ### Education
 Bachelor in Chemical Engineering at Institut Teknologi Bandung, Indonesia.
