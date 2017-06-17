@@ -16,6 +16,7 @@ My name is Abdul Fikri. Currently, I am working as *Database Developer* and duty
 #### Working Experience
 **2017:** Database Developer at IOM Indonesia.
 **2016:** Web Application Developer at Pixelo.
+**2016:** Freelance Web Application Developer.
 **2012:** System Analyst at Aceh Green.
 **2011:* Informatics Lecturer at Politeknik Aceh
 
