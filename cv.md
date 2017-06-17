@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-subtitle: Software Developer
+subtitle: Database Developer at IOM
 ---
 ### Personal Information
 My name is Fikri Abdul. I have the following qualities:
