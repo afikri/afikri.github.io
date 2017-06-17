@@ -3,13 +3,8 @@ layout: page
 title: Curriculum Vitae
 subtitle: Database Developer at IOM
 ---
-### Personal Information
-Abdul Fikri. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+## Personal Information
+Abdul Fikri. I have the following qualifications:
 
 ### Education
 Bachelor in Chemical Engineering at Institut Teknologi Bandung, Indonesia
