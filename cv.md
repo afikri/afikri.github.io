@@ -3,7 +3,7 @@ layout: page
 title: Curriculum Vitae
 subtitle: Database Developer at IOM
 ---
-## Personal Information
+# Personal Information
 Abdul Fikri. I have the following qualifications:
 
 ### Education
