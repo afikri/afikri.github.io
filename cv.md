@@ -7,9 +7,9 @@ subtitle: Database Developer at IOM
 Abdul Fikri. I have the following qualifications:
 
 ### Education
-Bachelor in Chemical Engineering at Institut Teknologi Bandung, Indonesia
-Bachelor in Applied Computer Science at Free University of Bozen Bolzano, Italy
-Master in Computing and Innovation, The University of Adelaide, South Australia
+Bachelor in Chemical Engineering at Institut Teknologi Bandung, Indonesia.
+Bachelor in Applied Computer Science at Free University of Bozen Bolzano, Italy.
+Master in Computing and Innovation, The University of Adelaide, South Australia.
 
 ### Working Experience
 
