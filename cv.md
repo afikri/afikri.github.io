@@ -12,14 +12,22 @@ My name is Abdul Fikri. Currently, I am working as *Database Developer* and duty
 **2003:** Bachelor in Chemical Engineering at Institut Teknologi Bandung, Indonesia.
 
 #### Working Experience
-**2017:** Database Developer at IOM Indonesia.
------
-**2016:** Web Application Developer at Pixelo.
+**2017:** Database Developer at IOM Indonesia. Main responsibility is to develop new features and maintain current database. 
+**2016:** Web Application Developer at Pixelo. Main responsibility was to create marketplace for design product using PHP/Laravel 5.2
 **2016:** Freelance Mobile and Web Application Developer.
 **2016:** Mobile Application Instructor ad DILo Banda Aceh.
 **2012:** System Analyst at Aceh Green.
 **2011:** Informatics Lecturer at Politeknik Aceh.
 
 #### Skills
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+######Programming
+- Groovy, Java, Python, PHP, Javascript
+######Database Management System
+- MySQL
+- MongoDB
+#####Others
+- XML, HTML, CSS
+######Operating System
+- Xubuntu
+- Debian
+- Fedora
