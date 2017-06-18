@@ -8,7 +8,9 @@ My name is Abdul Fikri. Currently, I am working as *Database Developer* and duty
 
 #### Education Achievements
 **2015**: Master in Computing and Innovation, The University of Adelaide, South Australia.
+
 **2010:** Bachelor in Applied Computer Science at Free University of Bozen Bolzano, Italy.
+
 **2003:** Bachelor in Chemical Engineering at Institut Teknologi Bandung, Indonesia.
 
 
