@@ -8,24 +8,15 @@ My name is Abdul Fikri. Currently, I am working as *Database Developer* and duty
 
 #### Education Achievements
 **2015**: Master in Computing and Innovation, The University of Adelaide, South Australia.
-
 **2010:** Bachelor in Applied Computer Science at Free University of Bozen Bolzano, Italy.
-
 **2003:** Bachelor in Chemical Engineering at Institut Teknologi Bandung, Indonesia.
 
-
-
 #### Working Experience
-**2017:** Database Developer at IOM Indonesia.
-
+**2017:** Database Developer at IOM Indonesia. </br>
 **2016:** Web Application Developer at Pixelo.
-
 **2016:** Freelance Mobile and Web Application Developer.
-
 **2016:** Mobile Application Instructor ad DILo Banda Aceh.
-
 **2012:** System Analyst at Aceh Green.
-
 **2011:** Informatics Lecturer at Politeknik Aceh.
 
 #### Skills
