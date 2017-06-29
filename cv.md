@@ -19,8 +19,8 @@ My name is Abdul Fikri. Currently, I am working as *Database Developer* and duty
 **2012:** System Analyst at Aceh Green. <br>
 **2011:** Informatics Lecturer at Politeknik Aceh.
 
-### Skills
-## Programming
+### Skills.
+#### Programming
 - Groovy, Java, Python, PHP, Javascript
 #### Database Management System
 - MySQL
