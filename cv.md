@@ -12,7 +12,7 @@ My name is Abdul Fikri. Currently, I am working as *Database Developer* and duty
 **2003:** Bachelor in Chemical Engineering at Institut Teknologi Bandung, Indonesia.
 
 ### Working Experience
-**2017:** Database Developer at IOM Indonesia. Main responsibility is to develop new features and maintain current database. 
+**2017:** Database Developer at IOM Indonesia. Main responsibility is to develop new features and maintain current database. <br>
 **2016:** Web Application Developer at Pixelo. Main responsibility was to create marketplace for design product using PHP/Laravel 5.2
 **2016:** Freelance Mobile and Web Application Developer.
 **2016:** Mobile Application Instructor ad DILo Banda Aceh.
