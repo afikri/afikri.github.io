@@ -6,4 +6,5 @@ bigimg: /img/wordle.png
 ---
 To start mariadb, please type.
 
-systemctl start mariadb
+`[developer@fedora ~ ]$ systemctl start mariadb`
+in the command line.
