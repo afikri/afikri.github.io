@@ -1,6 +1,6 @@
 ---
 layout: post
-title: To be
+title: Enable Browser Connection behind Proxy
 subtitle: ... or not to be?
 ---
 
