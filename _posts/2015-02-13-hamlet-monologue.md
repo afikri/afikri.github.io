@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Enable Browser Connection behind Proxy
-subtitle: ... or not to be?
 ---
 
 To be, or not to be--that is the question:
