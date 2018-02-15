@@ -32,8 +32,10 @@ My name is Abdul Fikri. Currently, I am working as *Database Developer* and duty
 #### Database Management System
 - MySQL, SQL Server
 - MongoDB
+
 #### Others
 - Rest API, XML, HTML, CSS, JSON, Git
+
 #### Operating System
 - Linux Distros : Fedora, Xubuntu, Debian
 - Windows 7
