@@ -24,16 +24,16 @@ My name is Abdul Fikri. Currently, I am working as *Database Developer* and duty
 - Typescript, Groovy, Python, Javascript, PHP, Java, C/C++ 
 
 #### Framework
-- Angular5, Grails, Laravel, Yii2, CodeIgniter  
+- Angular5, Spring Framework, Grails, Laravel, Yii2, CodeIgniter  
 
 #### Tools
-- Android Studio, Intellij Idea, PhpStorm, Gedit, Visual Studio Code, Eclipse, CodeIgniter   
+- Android Studio, Intellij Idea, PhpStorm, Gedit, Visual Studio Code, Eclipse   
+
 #### Database Management System
-- MySQL
+- MySQL, SQL Server
 - MongoDB
 #### Others
 - Rest API, XML, HTML, CSS, JSON, Git
 #### Operating System
-- Xubuntu
-- Debian
-- Fedora
+- Linux Distros : Fedora, Xubuntu, Debian
+- Windows 7
