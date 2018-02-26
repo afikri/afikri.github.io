@@ -15,11 +15,14 @@ The solution can be either plucking out first three elements or rotating the arr
 
 Let's solve on the first method.
 1. Create a temporary array to hold the size of N = K-1 array.
-
 `This is a line of code
 `
 2. Shift the array from index of k-1 to the left.
+`This is a line of code
+`
 3. Append the temporary array to the shifted one.
+`This is a line of code
+`
 The steps need to be taken are
 
 And the second method is
