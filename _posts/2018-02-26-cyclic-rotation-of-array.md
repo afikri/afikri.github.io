@@ -26,3 +26,7 @@ Let's solve on the first method.
 The steps need to be taken are
 
 And the second method is
+
+
+References
+Geeksforgeeks [1]: https://www.geeksforgeeks.org/array-rotation/
