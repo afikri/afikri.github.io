@@ -14,6 +14,9 @@ After three times of rotation, we will get
 The solution can be either plucking out first three elements or rotate the array three times.
 
 Let's solve on the first method.
+1. Create a temporary array to hold the size of N = K-1 array.
+2. Shift the array from index of k-1 to the left.
+3. Append the temporary array to the shifted one.
 The steps need to be taken are
 
 And the second method is
