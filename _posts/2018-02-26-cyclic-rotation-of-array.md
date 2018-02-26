@@ -11,7 +11,7 @@ After three times of rotation, we will get
 
 >A3 = [4,7,8,3,6]
 
-The solution can be either plucking out first three elements or rotate the array three times.
+The solution can be either plucking out first three elements or rotating the array three times.
 
 Let's solve on the first method.
 1. Create a temporary array to hold the size of N = K-1 array.
