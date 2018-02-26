@@ -28,5 +28,6 @@ The steps need to be taken are
 And the second method is
 
 
-References
-Geeksforgeeks [1]: https://www.geeksforgeeks.org/array-rotation/
+References<br>
+1. Geeksforgeeks[1] 
+[1]: https://www.geeksforgeeks.org/array-rotation/
