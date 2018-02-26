@@ -29,5 +29,5 @@ And the second method is
 
 
 References<br>
-1. Geeksforgeeks[1] 
+1. [Geeksforgeeks][1].
 [1]: https://www.geeksforgeeks.org/array-rotation/
