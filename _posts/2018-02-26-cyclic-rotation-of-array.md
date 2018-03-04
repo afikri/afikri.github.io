@@ -3,11 +3,10 @@ layout: post
 title: Cyclic Rotation of Array 
 tags: [array, java, algorithms]
 ---
-
+This post is my exercise for codility test. The problem will be solved by java, since I am good at it ;)
 [![Screenshot_2018-03-04_21_45_26.png](https://s10.postimg.org/zbgfluwrd/Screenshot_2018-03-04_21_45_26.png)](https://postimg.org/image/8qdwqaudx/)
 
-
-This post is my exercise for codility test. Here is the case, we are given an array A which is zero indexed with N-length. Here is the example. Array has length of 5, and to be rotated 3 times. 
+Here is the case, we are given an array A which is zero indexed with N-length. Here is the example. Array has length of 5, and to be rotated 3 times. 
 > A = [3,6,4,7,8], R = 3
 
 After three times of rotation, we will get
