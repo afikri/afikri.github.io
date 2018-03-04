@@ -62,7 +62,4 @@ The whole lines of code is
 The time complexity is O(n) and the auxillary space is O(d)
 
 References<br>
-1. [Geeksforgeeks][1].
-[1]: https://www.geeksforgeeks.org/array-rotation/
-
-[I'm an inline-style link](https://www.google.com)
+1. [Geeksforgeeks](https://www.geeksforgeeks.org/array-rotation/)
