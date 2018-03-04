@@ -21,38 +21,42 @@ Let's solve on the first method.
 ```
 
 2. Hold the rest array from index of n<sub>Rotation</sub> .
-> int[] secondArray = new int[A.length-firstArray.length];
-> System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	//will give [4,7,8]
+```php
+    int[] secondArray = new int[A.length-firstArray.length];
+    System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	//will give [4,7,8]
+```
 
 3. Then join secondArray to firstArray.
-> int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
+```php
+    int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
+```
+The whole lines of code is
+```php
+package com.afikri.learning;
 
-The whole code is
+import java.util.Arrays;
+import org.apache.commons.lang3.ArrayUtils;
 
->package com.afikri.learning;
->
->import java.util.Arrays;
->import org.apache.commons.lang3.ArrayUtils;
->
->public class CyclicRotation {
->	public static int[] rotateArray(int[] A, int nRotation){    
->        	int[] firstArray = new int[nRotation];
->		int[] secondArray = new int[A.length-firstArray.length];
->
->		System.arraycopy(A, 0, firstArray, 0, firstArray.length);
->		System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	
->
->		int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
->		return wholeArray;	
->		
->   	}
->
->	public static void main(String[] args) {
->		int[] A = { 3,6,4,7,8 };			
->		int nRotate = 3;
->		System.out.println(Arrays.toString(rotateArray(A, nRotate)));
->	}
->}
+public class CyclicRotation {
+    public static int[] rotateArray(int[] A, int nRotation){    
+        int[] firstArray = new int[nRotation];
+        int[] secondArray = new int[A.length-firstArray.length];
+
+		System.arraycopy(A, 0, firstArray, 0, firstArray.length);
+		System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	
+
+		int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
+		return wholeArray;	
+		
+   	}
+
+	public static void main(String[] args) {
+		int[] A = { 3,6,4,7,8 };			
+		int nRotate = 3;
+		System.out.println(Arrays.toString(rotateArray(A, nRotate)));
+	}
+}
+```
 
 References<br>
 1. [Geeksforgeeks][1].
