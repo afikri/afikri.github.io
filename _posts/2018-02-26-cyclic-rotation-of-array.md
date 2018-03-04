@@ -14,7 +14,7 @@ After three times of rotation, we will get
 The solution can be either plucking out first three elements or rotating the array three times.
 
 Let's solve on the first method.
-1. Create a temporary array to hold the size of nRotation times where nRotation = N<sub>rot</sub>-1 array.
+1. Create a temporary array to hold the size of nRotation times where nRotation = N<sub>rotation</sub>-1.
 ```javascript
 int[] firstArray = new int[nRotation];
 ```
