@@ -32,30 +32,31 @@ Let's solve on the first method.
 ```
 The whole lines of code is
 ```ruby
-package com.afikri.learning;
 
-import java.util.Arrays;
-import org.apache.commons.lang3.ArrayUtils;
+	package com.afikri.learning;
 
-public class CyclicRotation {
-    public static int[] rotateArray(int[] A, int nRotation){    
-        int[] firstArray = new int[nRotation];
-        int[] secondArray = new int[A.length-firstArray.length];
+	import java.util.Arrays;
+	import org.apache.commons.lang3.ArrayUtils;
 
-		System.arraycopy(A, 0, firstArray, 0, firstArray.length);
-		System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	
+	public class CyclicRotation {
+	    public static int[] rotateArray(int[] A, int nRotation){    
+		int[] firstArray = new int[nRotation];
+		int[] secondArray = new int[A.length-firstArray.length];
 
-		int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
-		return wholeArray;	
-		
-   	}
+			System.arraycopy(A, 0, firstArray, 0, firstArray.length);
+			System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	
 
-	public static void main(String[] args) {
-		int[] A = { 3,6,4,7,8 };			
-		int nRotate = 3;
-		System.out.println(Arrays.toString(rotateArray(A, nRotate)));
+			int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
+			return wholeArray;	
+
+		}
+
+		public static void main(String[] args) {
+			int[] A = { 3,6,4,7,8 };			
+			int nRotate = 3;
+			System.out.println(Arrays.toString(rotateArray(A, nRotate)));
+		}
 	}
-}
 ```
 
 References<br>
