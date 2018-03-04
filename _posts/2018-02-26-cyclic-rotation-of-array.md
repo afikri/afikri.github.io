@@ -9,7 +9,7 @@ This post is my exercise for codility test. Here is the case, we are given an ar
 
 After three times of rotation, we will get
 
->A3 = [4,7,8,3,6]
+>A<sub>3</sub> = [4,7,8,3,6]
 
 The solution can be either plucking out first three elements or rotating the array three times.
 
@@ -29,7 +29,7 @@ System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	//wi
 int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
 ```
 The whole code is
-```java
+```javascript
 package com.afikri.learning;
 
 import java.util.Arrays;
