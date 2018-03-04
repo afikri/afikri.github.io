@@ -9,7 +9,7 @@ Here is the case, we are given an array A which is zero indexed with N-length. H
 
 After three times of rotation, we will get
 
->A<sub>3</sub> = [4,7,8,3,6]
+>A<sub>3</sub> = [7,8,3,6,4]
 
 The solution can be either plucking out first three elements or rotating the array three times.
 
