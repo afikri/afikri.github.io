@@ -15,8 +15,10 @@ The solution can be either plucking out first three elements or rotating the arr
 
 Let's solve on the first method.
 1. Create a temporary array to hold the size of nRotation times where nRotation = N<sub>rotation</sub>-1.
->int[] firstArray = new int[nRotation];
->System.arraycopy(A, 0, firstArray, 0, firstArray.length);//will give [3,6]
+```php 
+    int[] firstArray = new int[nRotation];
+    System.arraycopy(A, 0, firstArray, 0, firstArray.length);//will give [3,6]
+```
 
 2. Hold the rest array from index of n<sub>Rotation</sub> .
 > int[] secondArray = new int[A.length-firstArray.length];
