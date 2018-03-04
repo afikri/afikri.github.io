@@ -31,7 +31,7 @@ Let's solve on the first method.
     int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
 ```
 The whole lines of code is
-```python
+```ruby
 package com.afikri.learning;
 
 import java.util.Arrays;
