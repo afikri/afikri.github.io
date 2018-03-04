@@ -35,7 +35,7 @@ package com.afikri.learning;
 import java.util.Arrays;
 import org.apache.commons.lang3.ArrayUtils;
 
-public class CyclicRot {
+public class CyclicRotation {
 	
 public static int[] rotateArray(int[] A, int nRotation){    
                
