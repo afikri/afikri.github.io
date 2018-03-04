@@ -17,13 +17,15 @@ Let's solve on the first method.
 1. Create a temporary array to hold the size of nRotation times where nRotation = N<sub>rotation</sub>-1.
 ```ruby
 int[] firstArray = new int[nRotation];
+System.arraycopy(A, 0, firstArray, 0, firstArray.length);//will give [3,6]
 ```
 2. Hold the rest array from index of n<sub>Rotation</sub> .
 ```
 int[] secondArray = new int[A.length-firstArray.length];
+System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	//will give [4,7,8]
 ```
-3. Append the temporary array to the shifted one.
-`This is a line of code
+3. Then join secondArray to firstArray.
+`int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
 `
 The steps need to be taken are
 
