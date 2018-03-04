@@ -15,8 +15,9 @@ The solution can be either plucking out first three elements or rotating the arr
 
 Let's solve on the first method.
 1. Create a temporary array to hold the size of N = K-1 array.
-`This is a line of code
-`
+```
+int[] firstArray = new int[nRotation];
+```
 2. Shift the array from index of k-1 to the left.
 `This is a line of code
 `
