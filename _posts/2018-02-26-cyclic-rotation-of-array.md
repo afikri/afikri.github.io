@@ -29,7 +29,7 @@ System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	//wi
 int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
 ```
 The whole code is
-```
+`
 package com.afikri.learning;
 
 import java.util.Arrays;
@@ -54,7 +54,7 @@ public class CyclicRotation {
 		System.out.println(Arrays.toString(rotateArray(A, nRotate)));
 	}
 }
-```
+`
 References<br>
 1. [Geeksforgeeks][1].
 [1]: https://www.geeksforgeeks.org/array-rotation/
