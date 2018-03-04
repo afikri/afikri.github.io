@@ -55,9 +55,11 @@ The whole lines of code is
 			int[] A = { 3,6,4,7,8 };			
 			int nRotate = 3;
 			System.out.println(Arrays.toString(rotateArray(A, nRotate)));
+			//will produce [4,7,8,3,6]
 		}
 	}
 ```
+The time complexity is O(n) and the auxillary space is O(d)
 
 References<br>
 1. [Geeksforgeeks][1].
