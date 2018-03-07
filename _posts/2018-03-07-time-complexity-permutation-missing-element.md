@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Time Complexity) Permutation Missing Element
+title: Permutation Missing Element
 tags: [time complexity, java, algorithms]
 ---
 
