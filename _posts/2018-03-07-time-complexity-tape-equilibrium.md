@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Time Complexity: Tape Equilibrium
-tags: [time complexity, java, algorithms]
+title: Cyclic Rotation of Array 
+tags: [array, java, algorithms]
 ---
+
 
 A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
 
