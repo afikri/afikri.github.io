@@ -3,63 +3,51 @@ layout: post
 title: Time Complexity Tape Equilibrium 
 tags: [array, java, algorithms]
 ---
-This post is my exercise for codility test. The problem will be solved by using Java, since I am good at it ;)
-Here is the case, we are given an array A which is zero indexed with N-length. Here is the example. Array has length of 5, and to be rotated 3 times. 
-> A = [3,6,4,7,8], R = 3
+This post is my exercise for codility test. The problem will be s
 
-After three times of rotation, we will get
 
->A<sub>3</sub> = [7,8,3,6,4]
 
-The solution can be either plucking out first three elements or rotating the array three times.
+A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
 
-Let's solve on the first method.
-1. Create a temporary array to hold the size of nRotation times where nRotation = N<sub>rotation</sub>-1.
-```ruby
-    int[] firstArray = new int[nRotation];
-    System.arraycopy(A, 0, firstArray, 0, firstArray.length);//will give [3,6]
-```
+Any integer P, such that 0 < P < N, splits this tape into two non-empty parts: A[0], A[1], ..., A[P − 1] and A[P], A[P + 1], ..., A[N − 1].
 
-2. Hold the rest array from index of n<sub>Rotation</sub> .
-```ruby
-    int[] secondArray = new int[A.length-firstArray.length];
-    System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	//will give [4,7,8]
-```
+The difference between the two parts is the value of: |(A[0] + A[1] + ... + A[P − 1]) − (A[P] + A[P + 1] + ... + A[N − 1])|
 
-3. Then join secondArray to firstArray.
-```ruby
-    int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
-```
-The whole lines of code is
-```ruby
+In other words, it is the absolute difference between the sum of the first part and the sum of the second part.
 
-	package com.afikri.learning;
+For example, consider array A such that:
 
-	import java.util.Arrays;
-	import org.apache.commons.lang3.ArrayUtils;
+  A[0] = 3
+  A[1] = 1
+  A[2] = 2
+  A[3] = 4
+  A[4] = 3
+We can split this tape in four places:
 
-	public class CyclicRotation {
-	    public static int[] rotateArray(int[] A, int nRotation){    
-		int[] firstArray = new int[nRotation];
-		int[] secondArray = new int[A.length-firstArray.length];
+P = 1, difference = |3 − 10| = 7 
+P = 2, difference = |4 − 9| = 5 
+P = 3, difference = |6 − 7| = 1 
+P = 4, difference = |10 − 3| = 7 
+Write a function:
 
-			System.arraycopy(A, 0, firstArray, 0, firstArray.length);
-			System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	
+class Solution { public int solution(int[] A); }
 
-			int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
-			return wholeArray;	
+that, given a non-empty zero-indexed array A of N integers, returns the minimal difference that can be achieved.
 
-		}
+For example, given:
 
-		public static void main(String[] args) {
-			int[] A = { 3,6,4,7,8 };			
-			int nRotate = 3;
-			System.out.println(Arrays.toString(rotateArray(A, nRotate)));
-			//will produce [7, 8, 3, 6, 4]
-		}
-	}
-```
-The time complexity is O(n) and the auxillary space is O(d)
+  A[0] = 3
+  A[1] = 1
+  A[2] = 2
+  A[3] = 4
+  A[4] = 3
+the function should return 1, as explained above.
 
-References<br>
-1. [Geeksforgeeks](https://www.geeksforgeeks.org/array-rotation/)
+Assume that:
+
+N is an integer within the range [2..100,000];
+each element of array A is an integer within the range [−1,000..1,000].
+Complexity:
+
+expected worst-case time complexity is O(N);
+expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
