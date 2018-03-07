@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cyclic Rotation of Array 
+title: Time Complexity Tape Equilibrium 
 tags: [array, java, algorithms]
 ---
 This post is my exercise for codility test. The problem will be solved by using Java, since I am good at it ;)
