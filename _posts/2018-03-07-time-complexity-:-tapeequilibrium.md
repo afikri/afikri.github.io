@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Time Complexity: TapeEquilibrium
+tags: [time complexity, java, algorithms]
 ---
 A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
 
