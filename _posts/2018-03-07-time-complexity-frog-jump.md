@@ -1,6 +1,7 @@
 ---
 layout: post
-title: yadda stadda
+title: (Time Complexity) Frog Jump
+tags: [time complexity, java, algorithms]
 ---
 
-yadda yadda staddaaa
+Frog Jump
