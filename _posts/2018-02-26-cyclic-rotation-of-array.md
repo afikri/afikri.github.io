@@ -20,7 +20,7 @@ Let's solve on the first method.
     System.arraycopy(A, 0, firstArray, 0, firstArray.length);//will give [3,6,4]
 ```
 
-2. Hold the rest array from index of n<sub>Rotation</sub> .
+2. Hold the rest array from index of n<sub>Rotation</sub>.
 ```ruby
     int[] secondArray = new int[nRotation];
     System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	//will give [7,8]
