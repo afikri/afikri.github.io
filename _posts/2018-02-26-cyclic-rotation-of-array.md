@@ -21,6 +21,7 @@ Let's solve on the first method.
 ```
 
 2. Hold the rest array from index of n<sub>Rotation</sub>.
+
 ```ruby
     int[] secondArray = new int[nRotation];
     System.arraycopy(A, firstArray.length, secondArray, 0, secondArray.length);	//will give [7,8]
@@ -28,6 +29,7 @@ Let's solve on the first method.
 ```
 
 3. Then join secondArray to firstArray.
+
 ```ruby
     int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
 ```
