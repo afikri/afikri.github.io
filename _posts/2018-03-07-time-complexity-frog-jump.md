@@ -4,7 +4,7 @@ title: (Time Complexity) Frog Jump
 tags: [time complexity, java, algorithms]
 ---
 
----ruby
+```ruby
 public class FrogJmp{
 
 	public static int solution(int x, int y, int distance){
@@ -19,4 +19,4 @@ public class FrogJmp{
 		System.out.println("#Jump must made:"+solution(10,110,30));
 	}	
 }
----
+```
