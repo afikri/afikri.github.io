@@ -14,14 +14,14 @@ After three times of rotation, we will get
 The solution can be either plucking out last three elements and put them in the front(lower index sequentially) or rotating the array three times.
 
 Let's solve on the first method.
-1. Create a temporary array to hold the size of A.length-nRotation times. Meaning that we want to have [3,6,4]
+#1. Create a temporary array to hold the size of A.length-nRotation times. Meaning that we want to have [3,6,4]
 
 ```ruby    
     int[] firstArray = new int[A.length-nRotation];	
     System.arraycopy(A, 0, firstArray, 0, firstArray.length);//will give [3,6,4]
 ```
 
-2. Hold the rest array from index of n<sub>Rotation</sub>.
+#2. Hold the rest array from index of n<sub>Rotation</sub>.
 
 ```ruby
     int[] secondArray = new int[nRotation];
@@ -29,7 +29,7 @@ Let's solve on the first method.
     
 ```
 
-3. Then join secondArray to firstArray.
+#3. Then join secondArray to firstArray.
 
 ```ruby
     int[] wholeArray = ArrayUtils.addAll(secondArray, firstArray);
