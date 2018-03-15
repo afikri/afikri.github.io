@@ -13,7 +13,7 @@ After three times of rotation, we will get
 
 The solution can be either plucking out last three elements and put them in the front(lower index sequentially) or rotating the array three times.
 
-Let's solve on the first method.
+Let's solve on the first method.<br>
 #1. Create a temporary array to hold the size of A.length-nRotation times. Meaning that we want to have [3,6,4]
 
 ```ruby    
