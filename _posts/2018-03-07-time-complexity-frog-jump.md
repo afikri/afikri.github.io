@@ -6,7 +6,6 @@ tags: [time complexity, java, algorithms]
 
 ```ruby
 public class FrogJmp{
-
 	public static int solution(int x, int y, int distance){
 		int diffDistance = y - x;
 		if(diffDistance%distance == 0) 
